@@ -23,7 +23,7 @@
 
 size_t strcspn(const char *s1, const char *s2);
 size_t strspn(const char *s1, const char *s2);
-int iscntrl(int c);
+//int iscntrl(int c);
 
 double atof(const char *str);
 long long strtoll(const char *str, char **endptr, int base);
@@ -39,7 +39,7 @@ double difftime(time_t end, time_t beg);
 struct tm *localtime(const time_t *timer);
 
 int fileno(FILE *stream);
-int ferror(FILE *stream);
+//int ferror(FILE *stream);
 int fclose(FILE *stream);
 int fseeko(FILE *stream, off_t offset, int whence);
 FILE *fopen(const char *filename, const char *mode);

@@ -16,13 +16,13 @@ LOG_MODULE_REGISTER(lib_extensions, LOG_LEVEL_DBG);
 
 #define FN_MISSING() LOG_DBG("[IMPLEMENTATION MISSING : %s]\n", __func__)
 
-int iscntrl(int c)
-{
-	/* All the characters placed before the space on the ASCII table
-	 * and the 0x7F character (DEL) are control characters.
-	 */
-	return (int)(c < ' ' || c == 0x7F);
-}
+//int iscntrl(int c)
+//{
+//	/* All the characters placed before the space on the ASCII table
+//	 * and the 0x7F character (DEL) are control characters.
+//	 */
+//	return (int)(c < ' ' || c == 0x7F);
+//}
 
 size_t strftime(char *dst, size_t dst_size,
 		const char *fmt,
